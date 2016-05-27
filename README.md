@@ -23,4 +23,4 @@ You can see samples from Generative Network in samples.
 
 ## Training Progress ##
 
-![top-page](https://raw.githubusercontent.com/MasazI/dcgan/4216261720-anime.gif)
+![top-page](4216261720-anime.gif)
