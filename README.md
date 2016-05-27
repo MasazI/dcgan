@@ -10,16 +10,16 @@ https://arxiv.org/pdf/1511.06434.pdf
 
 ### How to Use ###
 
-Please edit settings.py
+Download face images in data dir.  
+If you want, please edit settings.py.
 
+and
 
 ```
-#!bash
-
 python trainer.py
 ```
 
-You can see samples from Generative Network in samples.
+You can see samples from Generative Network in samples directory.
 
 ## Training Progress ##
 
