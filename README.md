@@ -22,4 +22,3 @@ python trainer.py
 You can see samples from Generative Network in samples.
 
 ## Training Progress ##
-![anime.gif](https://bitbucket.org/repo/yapj5B/images/4216261720-anime.gif)
