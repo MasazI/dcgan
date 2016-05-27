@@ -22,3 +22,4 @@ python trainer.py
 You can see samples from Generative Network in samples.
 
 ## Training Progress ##
+4216261720-anime.gif
