@@ -23,15 +23,11 @@ LOG_DEVICE_PLACEMENT = FLAGS.log_device_placement
 
 EPOCHS = FLAGS.epochs
 
-TFRECORDS = FLAGS.tfrecords
-CSVFILE =FLAGS.csvfile
+CSVFILE = FLAGS.csvfile
 
 def train():
     with tf.Graph().as_default():
-        #images = tf.placeholder(tf.float32, [BATCH_SIZE] + IMAGE_SHAPE, name='real_images')
-        #sample_images = tf.placeholder(tf.float32, [SAMPLE_SIZE] + IMAGE_SHAPE, name='sample_images')
-        
-         # data
+        # data
         dataset = traindataset.DataSet(DATA_DIR, SAMPLE_SIZE)
         # tfrecords inputs
         images, labels_t = dataset.csv_inputs(CSVFILE)
